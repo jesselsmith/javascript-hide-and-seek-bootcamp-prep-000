@@ -24,5 +24,5 @@ function deepestChild(){
   
   let copy = [];
   
-  let current = 
+  let current = document.querySelector('#grand')
 }
