@@ -27,6 +27,8 @@ function deepestChild(){
   let current = document.querySelector('#grand-node');
   
   while(!isDeepest(current)){
-    for()
+    for(let i = 0; i < current.length; i++){
+      cop
+    }
   }
 }
