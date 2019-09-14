@@ -26,12 +26,12 @@ function deepestChild(){
   let next - [];
   
   while(!isDeepest(current)){
-    
-    for(let i = 0; i < current.length; i++){
-      copy[i] = current[i];
+    if(current.length > 1){
+      for(let i = 0; i < current.length; i++){
+        next.push(current[i]);
+      }
     }
-    
-    next.push(copy)
+   
   }
   return current;
 }
