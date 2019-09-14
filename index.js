@@ -19,10 +19,10 @@ function increaseRankBy(n){
 
 function deepestChild(){
   function isDeepest(testCase){
-   return null === document.querySelector(testCase + ' div');
+   return null === testCase.querySelector('div');
   }
   
-  let current = document.getElementByID('grand-node');
+  let current = document.getElementById('grand-node');
   let next = [];
   
   
