@@ -22,7 +22,7 @@ function deepestChild(){
    return null === document.querySelector(testCase + ' div');
   }
   
-  let current = document.querySelector('#grand-node');
+  let current = document.getElementByID('grand-node');
   let next = [];
   
   
