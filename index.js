@@ -33,7 +33,7 @@ function deepestChild(){
       current = next.shift();
     }
     else{
-      
+      current = current.querySelectorAll('div');
     }
    
   }
