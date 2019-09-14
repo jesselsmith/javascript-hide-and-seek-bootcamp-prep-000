@@ -22,13 +22,11 @@ function deepestChild(){
    return null === document.querySelector(testCase + ' div');
   }
   
-  let copy = [];
-  
   let current = document.querySelector('#grand-node');
   let next - [];
   
   while(!isDeepest(current)){
-    copy = [];
+    
     for(let i = 0; i < current.length; i++){
       copy[i] = current[i];
     }
