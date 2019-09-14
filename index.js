@@ -28,7 +28,7 @@ function deepestChild(){
   
   while(!isDeepest(current)){
     for(let i = 0; i < current.length; i++){
-      cop
+      copy[i] = current[i];
     }
   }
 }
