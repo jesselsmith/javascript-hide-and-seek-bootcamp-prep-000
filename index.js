@@ -27,8 +27,11 @@ function deepestChild(){
   let current = document.querySelector('#grand-node');
   
   while(!isDeepest(current)){
+    copy = [];
     for(let i = 0; i < current.length; i++){
       copy[i] = current[i];
     }
+    
+    
   }
 }
