@@ -23,7 +23,6 @@ function deepestChild(){
   }
   
   let current = document.getElementById('grand-node');
-  //let next = [];
   
   while(!isDeepest(current)){
    current = current.querySelector('div');
